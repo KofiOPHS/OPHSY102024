@@ -1,0 +1,14 @@
+name = str(input("Enter name:"))
+print(name)
+
+age = int(input("Enter age"))
+print(age)
+
+favouriteColour = str(input("Enter your favourite colour"))
+print(favouriteColour)
+
+favouriteCar = str(input("Enter your favourite car"))
+print(favouriteCar)
+
+height = str(input("Enter your height"))
+print(height)
