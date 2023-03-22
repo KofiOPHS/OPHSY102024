@@ -1,0 +1,20 @@
+def saveScore(n,s):
+  file = open("scores.txt", "a")
+  file.write("Name: "+n+", Score: "+str(s)+"\n")
+  file.close()
+  return
+
+overallScore = 0
+
+name = str(input("What is your name?"))
+print("Okay", name , "this is a maths quiz.")
+
+answer = int(input("What is 6 x 9?"))
+if answer == 54:
+  overallScore = overallScore + 1
+  print("Correct!")
+  print("Your score is now", overallScore)  
+  
+else:
+  print("Incorrect")
+  print("Your score is", overallScore)
