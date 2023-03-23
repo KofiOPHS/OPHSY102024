@@ -5,6 +5,7 @@ def saveScore(n,s):
   return
 
 overallScore = 0
+finalScore = 0/3
 
 name = str(input("What is your name?")).upper()
 print("Okay", name , "this is a maths quiz.")
@@ -47,8 +48,16 @@ else:
   
 print("")
 
+if answer == 54:
+  finalScore = finalScore + 1/3
+if answer2 == 169:
+  finalScore = finalScore + 1/3
+if answer3 == 39:
+  finalScore = finalScore + 1/3
+
+
 if answer == 54 and answer2 == 169 and answer3 == 39:
-  print("You have passed this maths test. Congratulations.")
+  print("You have passed this maths test. Your score was", finalScore , ",congratulations.")
   
 else:
-  print("You have failed, better luck next time."
+  print("You have failed, your score was", finalScore , "better luck next time.")
