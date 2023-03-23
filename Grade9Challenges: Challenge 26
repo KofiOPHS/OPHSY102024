@@ -6,8 +6,10 @@ def saveScore(n,s):
 
 overallScore = 0
 
-name = str(input("What is your name?"))
+name = str(input("What is your name?")).upper()
 print("Okay", name , "this is a maths quiz.")
+
+print("")
 
 answer = int(input("What is 6 x 9?"))
 if answer == 54:
@@ -18,3 +20,35 @@ if answer == 54:
 else:
   print("Incorrect")
   print("Your score is", overallScore)
+
+print("")
+
+answer2 = int(input("What is 13 squared?"))
+if answer2 == 169:
+  overallScore = overallScore + 1
+  print("Correct!")
+  print("Your score is now", overallScore)
+
+else:
+  print("Incorrect")
+  print("Your score is", overallScore)
+
+print("")
+
+answer3 = int(input("What is 13 x 3?"))
+if answer3 == 39:
+  overallScore = overallScore + 1
+  print("Correct!")
+  print("Your score is now", overallScore)
+  
+else: 
+  print("Incorrect")
+  print("Your score is", overallScore)
+  
+print("")
+
+if answer == 54 and answer2 == 169 and answer3 == 39:
+  print("You have passed this maths test. Congratulations.")
+  
+else:
+  print("You have failed, better luck next time."
