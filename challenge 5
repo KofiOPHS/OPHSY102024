@@ -1,0 +1,8 @@
+raining = str(input("Is it raining?")).lower()
+windy = str(input("Is it windy?")).lower()
+
+if raining == "yes" and windy == "yes":
+  print("It is too windy for an umbrella")
+  
+if raining != "yes" and windy == "yes":
+  print("")
