@@ -1,0 +1,13 @@
+totalMarks = int(input("Please enter the students overall score."))
+
+if totalMarks >= 75:
+  print("Grade A")
+  
+if totalMarks >= 60 and totalMarks <75:
+  print("Grade B")
+  
+if totalMarks >= 35 and totalMarks <60:
+  print("Grade C")
+  
+if totalMarks <35:
+  print("Grade D")
