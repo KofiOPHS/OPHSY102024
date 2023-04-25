@@ -1,0 +1,2 @@
+for Singleletter in "burger":
+  print(Singleletter)
