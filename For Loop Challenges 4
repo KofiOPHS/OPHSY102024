@@ -1,0 +1,5 @@
+choice = str(input("Do you want to know a times table? Y or N?")).lower()
+if choice == "y":
+    number = int(input("Enter a number"))
+    for i in range(1,13):
+        print(i*number)
