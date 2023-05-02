@@ -1,0 +1,7 @@
+olValue = str(input("Enter an Olympic Value")).lower()
+
+if olValue == "respect" or olValue == "excellence" or olValue == "friendship":
+  print("That's correct")
+  
+else:
+  print("Try again")
