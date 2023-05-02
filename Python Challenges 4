@@ -1,0 +1,6 @@
+number1 = int(input("Enter a number"))
+number2 = int(input("Enter a number"))
+
+result = number1/number2
+print("")
+print("The result is", result)
