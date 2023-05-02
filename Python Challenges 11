@@ -1,0 +1,3 @@
+sentence = str(input("Enter a sentence"))
+
+print("There are", len(sentence), " letters in this sentence")
