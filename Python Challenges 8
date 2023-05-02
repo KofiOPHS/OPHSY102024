@@ -1,0 +1,13 @@
+mark = int(input("Enter your mark"))
+
+if mark <35:
+  print("GRADE D")
+  
+if mark >=35 and mark <60:
+  print("GRADE C")
+  
+if mark >=60 and mark <75:
+  print("GRADE B")
+
+if mark >=75:
+  print("GRADE A")
