@@ -1,0 +1,17 @@
+import random
+
+num = random.randint(1,5)
+choice = int(input("Pick a number between 1 and 5"))
+
+if choice == num:
+  print("Well done")
+  
+else:
+  if num > choice:
+    print("You are too high")
+    print("Try again")
+    choice2 = 
+    
+  else:
+    print("You are too low")
+    
