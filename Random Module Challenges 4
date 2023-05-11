@@ -1,17 +1,29 @@
 import random
 
 num = random.randint(1,5)
-choice = int(input("Pick a number between 1 and 5"))
+userNum = int(input("Enter a number between 1 and 5"))
 
-if choice == num:
-  print("Well done")
-  
-else:
-  if num > choice:
-    print("You are too high")
+
+if userNum == num:
+    print("Well done!")
+
+elif userNum > num:
     print("Try again")
-    choice2 = 
-    
-  else:
-    print("You are too low")
+    userNum2 = int(input("Have another guess."))
+    if userNum2 == num:
+        print("Congrats, second time lucky")
+
+    else:
+        print("You lose")
+        print("The number was", num)
+
+elif userNum < num:
+    print("Try again")
+    userNum2 = int(input("Have another guess."))
+    if userNum2 == num:
+        print("Congrats, second time lucky")
+
+    else:
+        print("You lose")
+        print("The number was", num)
     
