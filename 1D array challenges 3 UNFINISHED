@@ -1,0 +1,13 @@
+list = []
+
+name1 = str(input("Enter the first name"))
+name2 = str(input("Enter the second name"))
+name3 = str(input("Enter the third name"))
+  
+
+choice = str(input("Do you want to add another name? y or n?")).lower()
+if choice == "y":
+  while choice == "y":
+    name = str(input("Enter another name"))
+    
+  
