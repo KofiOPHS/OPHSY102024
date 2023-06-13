@@ -1,0 +1,16 @@
+list = []
+
+list.append(input("Enter a name to add to the party"))
+list.append(input("Enter a name to add to the party"))
+list.append(input("Enter a name to add to the party"))
+
+option = "y"
+option = str(input("Do you want to add more names? y or n?")).lower()
+
+if option == "n":
+  print(list)
+while option == "y":
+  list.append(input("Enter another name"))
+  option = str(input("Do you want to add more names? y or n?")).lower()
+  if option == "n":
+    print(list)
