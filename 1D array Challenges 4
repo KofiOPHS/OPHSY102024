@@ -1,0 +1,11 @@
+list = ["64 zoo lane", "teletubbies", "hollyoaks", "horrid henry"]
+
+for i in range(4):
+  print(list[i])
+  
+show = str(input("What show do you want to add to the list?"))
+showPlace = int(input("What position would you like it?"))
+showPlace = showPlace - 1
+
+list.insert(showPlace,show)
+print(list)
