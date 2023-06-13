@@ -1,0 +1,10 @@
+list = ["1", "2", "3", "4", "5"]
+print(list)
+
+choice = int(input("Enter a number that is in the code above"))
+newChoice = int(input("Type another number to replace this number"))
+
+del list[choice - 1]
+list.insert(choice - 1, newChoice)
+
+print(list)
